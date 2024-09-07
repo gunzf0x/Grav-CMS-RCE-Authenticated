@@ -330,8 +330,6 @@ def main()->None:
     # Print where the payload has been uploaded
     print(f"{STAR} {color['GREEN']}Payload uploaded. Visit {color['BLUE']}{malicious_final_page!r}{color['GREEN']} to see the command execution output{color['RESET']}")
 
-    
-
 
 if __name__ == "__main__":
     main()
