@@ -34,7 +34,6 @@ options:
   --no-delete-file      Do NOT delete the generated files. Useful to check command execution output.
   --panel-route PANEL_ROUTE
                         Admin Panel route in Grav CMS. Default: /admin
-  --no-banner           Do not print banner
   --show-warnings       Show warnings (if there are).
 ```
 

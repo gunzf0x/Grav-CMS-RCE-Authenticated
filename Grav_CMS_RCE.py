@@ -59,7 +59,6 @@ def parse_arguments():
                          help ='Do NOT delete the generated files. Useful to check command execution output.')
     parser.add_argument('--panel-route', type=str, default='/admin',
                          help='Admin Panel route in Grav CMS. Default: /admin')
-    parser.add_argument('--no-banner', action='store_true', help='Do not print banner')
     parser.add_argument('--show-warnings', action='store_false', help='Show warnings (if there are).')
 
     return parser.parse_args()
