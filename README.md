@@ -4,7 +4,7 @@
 
 _This code is an adaptation from [`Grave` Github repository](https://github.com/akabe1/Graver) with some improvements based on [this video](https://ethicalhacking.uk/videos/CVE-2024-28116/)._
 
-Exploit against `Grav CMS` based on SSTI + RCE vulnerabilities, labeled as `CVE-2024-28116`. This script basically creates pages with the vulnerabilities, executes then and, finally, deletes the page after the execution.
+Exploit against `Grav CMS` (for versions below `1.7.45`) based on SSTI + RCE vulnerabilities, labeled as `CVE-2024-28116`. This script basically creates a page with the vulnerability, executes it and, finally, deletes the page after the execution.
 
 ## Usage
 ```shell-session
