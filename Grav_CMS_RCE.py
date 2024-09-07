@@ -46,9 +46,9 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="Grav CMS RCE (Authenticated).")
 
     parser.add_argument('-t', '--target', type=str, required=True,
-                         help='URL where Graver CMS is running. Example: http://10.10.10.10')
+                         help='URL where Grav CMS is running. Example: http://10.10.10.10')
     parser.add_argument('-P', '--port', type=int, default=80, 
-                         help='Port running Graver CMS. Default: 80')
+                         help='Port running Grav CMS. Default: 80')
     parser.add_argument('-u', '--username', type=str, required=True,
                          help='Username to authenticate in Grav CMS')
     parser.add_argument('-p', '--password', type=str, required=True,

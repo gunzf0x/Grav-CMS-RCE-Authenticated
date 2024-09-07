@@ -23,8 +23,8 @@ Grav CMS RCE (Authenticated).
 options:
   -h, --help            show this help message and exit
   -t TARGET, --target TARGET
-                        URL where Graver CMS is running. Example: http://10.10.10.10
-  -P PORT, --port PORT  Port running Graver CMS. Default: 80
+                        URL where Grav CMS is running. Example: http://10.10.10.10
+  -P PORT, --port PORT  Port running Grav CMS. Default: 80
   -u USERNAME, --username USERNAME
                         Username to authenticate in Grav CMS
   -p PASSWORD, --password PASSWORD
